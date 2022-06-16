@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SebastianCarballo/DH-Heroes/issues"
   },
-  "homepage": "https://github.com/SebastianCarballo/DH-Heroes#readme"
+  "homepage": "https://github.com/SebastianCarballo/DH-Heroes#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
