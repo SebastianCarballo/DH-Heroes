@@ -5,6 +5,6 @@ const port = 3030;
 
 app.use(express.static(path.join(__dirname,'public')));
 
-app.get('/',(req,res) => res.send('Bienvenidos'));
+app.get('/',(req,res) => res.sendFile(path.resolve(__dirname,'views','index.html')));
 
 app.listen(port,() => console.log(`Se levanto con exito el servidor en http://localhost:${port}`));
