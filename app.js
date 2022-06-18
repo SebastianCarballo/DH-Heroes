@@ -13,5 +13,6 @@ app.get('/hamilton',(req,res) => res.sendFile(path.resolve(__dirname,'views','ha
 app.get('/clarke',(req,res) => res.sendFile(path.resolve(__dirname,'views','clarke.html')));
 app.get('/berners-lee',(req,res) => res.sendFile(path.resolve(__dirname,'views','berners-lee.html')));
 app.get('/babbage',(req,res) => res.sendFile(path.resolve(__dirname,'views','babbage.html')));
+app.get('*',(req,res) => res.sendFile(path.resolve(__dirname,'views','404.html')));
 
 app.listen(port,() => console.log(`Se levanto con exito el servidor en http://localhost:${port}`));
