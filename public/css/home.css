@@ -1,0 +1,15 @@
+body{
+    background-image: url(../img/icono-comision-17/logo-comision-17.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 70%;
+
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
